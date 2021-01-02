@@ -15,6 +15,17 @@ tags: C++ STL
 第一个参数是指向开始元素的迭代器，第二个参数是指向最末尾元素的迭代器，第三个参数是less<>()或是greater<>()，前者用于生成大顶堆，后者用于生成小顶堆，第三个参数默认情况下为less<>()，less<int>()用于生成大顶堆。
 > 要使用less<int>()，以及greater<int>()，请添加头文件#include <functional>，且一定要加括号less<>()
 > 会直接在迭代器身上进行改变 无需重新赋值
+
 ```cpp
-make_heap(q.begin(), q.end(),less<int>());
+int main(){
+    vector<int> q;
+    for (int i = 0; i < 10; i++) {
+        q.push_back(i);
+    }
+    make_heap(q.begin(), q.end(),less<int>());
+    for (int i = 0; i < q.size(); i++) {
+        cout << q[i] << " ";
+    }
+    return 0;
+}
 ```
