@@ -9,12 +9,11 @@ description:
 {% include header.html %}
 {% include boot.html %}
 <main>
-    {% include title.html %}
     <ul class="ex-list">
         <li class="fadeInUp animated">
         {% if site.author %}
           <div class="portraits"><img src="{{ site.portraits }}" alt=""></div>
-          <span id="yourname">{{ site.name }}</span>
+          <span id="yourname">{{ site.name }}</span><br>
           <span id="yourbio">{{ site.bio }}</span>
           {% if site.about %}
             <span id="aboutyou">{{ site.aboutyou }}</span>
