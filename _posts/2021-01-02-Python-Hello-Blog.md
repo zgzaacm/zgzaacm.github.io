@@ -19,3 +19,7 @@ tags: Python
 * dash 破折号
 * application programming interfaces API
 * asynchronous 异步
+
+'''python
+import numpy as np
+'''
