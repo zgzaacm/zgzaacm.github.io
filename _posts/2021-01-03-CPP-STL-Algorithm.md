@@ -3,7 +3,7 @@ layout: post
 title: 'C++:STL-algorithm总结'
 date: 2021-01-03
 author: zgzaacm
-color: rgb(100,210,32)
+color: rgb(131,175,155)
 tags: C++ STL
 ---
 > 教程参考[105 STL Algorithms in Less Than an Hour](https://www.youtube.com/watch?v=bFSnXNIsK4A&t=2771s)
