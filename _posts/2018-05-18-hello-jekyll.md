@@ -7,7 +7,7 @@ color: rgb(255,210,32)
 cover: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3080697476,1658576794&fm=26&gp=0.jpg'
 tags: Python
 ---
-> 第一个微博 测试效果。
+> 第一个博客，we did it!
 
 # words #
 
