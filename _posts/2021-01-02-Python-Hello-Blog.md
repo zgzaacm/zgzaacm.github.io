@@ -20,6 +20,6 @@ tags: Python
 * application programming interfaces API
 * asynchronous 异步
 
-'''python
+``` python
 import numpy as np
-'''
+```
