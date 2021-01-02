@@ -17,10 +17,10 @@ author: true
 name: 'zgzaacm'
 NickName: ''
 webtitle: 'zgzaacmの芳草地'
-bio: '爱吃爱编程'
+bio: '吃和编程'
 about: true
 aboutyou: '2017-2021: 大连理工大学计算机科学与技术本科'
-portraits: '/assets/profile.jpeg' # your portraits image file path
+portraits: '/assets/head.jpg' # your portraits image file path
 
 # SNS
 SNS: true
