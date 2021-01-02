@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: '国珍の芳草地'
+title: 'zgzaacmの芳草地'
 description: '绝知此事要躬行'
 keywords: 'Python、DL、算法、杂物'
 url: 'https://zgzaacm.github.io' # your host
@@ -16,7 +16,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
 author: true
 name: 'zgzaacm'
 NickName: ''
-webtitle: '国珍の小站'
+webtitle: 'zgzaacmの芳草地'
 bio: '爱吃爱编程'
 about: true
 aboutyou: '2017-2021: 大连理工大学计算机科学与技术本科'
@@ -25,7 +25,7 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'zgzaacm@gmail.com'
+  #mail: 'zgzaacm@gmail.com'
   github: 'https://github.com/zgzaacm'
 
 # 分页
@@ -34,7 +34,7 @@ paginatepath: ['page:num']
 
 # since
 footer:
-  since: 2018
+  since: 2021
 
 # Markdown
 markdown: kramdown
