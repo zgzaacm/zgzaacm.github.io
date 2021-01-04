@@ -17,8 +17,8 @@ cover: '../assets/birdface.png'
 ## 效果图
 
 主界面：
-![游戏界面](../assets/界面.png)
+![游戏界面](https://img-blog.csdnimg.cn/20210105001734978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FsdmFzc3Nz,size_16,color_FFFFFF,t_70)
 游戏：
-![游戏内部](../assets/游戏.png)
+![游戏内部](https://img-blog.csdnimg.cn/20210105001748524.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0FsdmFzc3Nz,size_16,color_FFFFFF,t_70)
 
 通过空格控制小鸟行动。
