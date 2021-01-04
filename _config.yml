@@ -29,7 +29,7 @@ SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagr
   github: 'https://github.com/zgzaacm'
 
 # 分页
-paginate: 2
+paginate: 1
 paginatepath: ['page:num']
 
 # since
