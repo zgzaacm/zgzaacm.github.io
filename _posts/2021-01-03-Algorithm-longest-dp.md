@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '算法：回文串之中心扩散和manacher'
-date: 2021-01-03
+date: 2021-01-05
 author: zgzaacm
 color: rgb(154,133,255)
 tags: algorithm manacher
