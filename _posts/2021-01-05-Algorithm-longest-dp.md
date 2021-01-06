@@ -78,5 +78,4 @@ class Solution:
         # 变回原来的串
         return ''.join(filter(lambda x:x!='#', snew[maxdex-maxlen:maxdex+maxlen+1]))
     
-    
 ```
