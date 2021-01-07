@@ -20,7 +20,7 @@ tags: python
 * r可读 r+可读可写
 
 ```python
-f = open('test.txt', r)
+f = open('test.txt', 'r')
 
 print(f.name, f.mode, f.closed)
 
@@ -67,3 +67,72 @@ with open('test2.txt', 'w') as f:
 
 * 读入写入图片时需要使用二进制形式，默认采用utf-8
 * 使用`rb`和`wb`
+
+## context manager
+
+会自动管理某个object的创建的和销毁。可以用来管理数据库，锁等。  
+使用类的方式：
+
+```py
+class Open_File():
+    def __init__(self, filename, mode):
+        self.filename = filename
+        self.mode = mode
+    
+    def __enter__(self):
+        self.file = open(self.filename, self.mode)
+
+        return self.file
+    
+    def __exit__(self, exc_type, exc_val, traceback):
+        self.file.close()
+
+with Open_File('sample.txt', 'r') as f:
+    f.write('Testing')
+
+```
+
+使用函数的方式：
+
+```python
+from contextlib import contextmanger # 装饰器
+
+@contextmanager
+def open_file(file, mode):
+    try:
+      f = open(file, mode)
+      yield f
+    finally:
+      f.close()
+
+with open_file('sample.txt', 'w') as f:
+    f.write('fuck')
+
+print(f.closed)
+
+```
+
+```py
+cwd = os.getcwd()
+os.chdir('Sample-Dir-One')
+print(os.listdir())
+os.chdir(cwd)
+
+cwd = os.getcwd()
+os.chdir('Sample-Dir-Two')
+print(os.listdir())
+os.chdir(cwd)
+
+@contextmanager
+def change_dir(dest):
+    try:
+        cwd = os.getcwd()
+        os.chdir(dest)
+        yield
+    finally:
+        os.chdir(cwd)
+
+with change_dir('Sample'):
+    print(os.listdir())
+
+```
